@@ -22,10 +22,10 @@ The Configuration Manager Audit Report Generator is a PowerShell script that aut
 3. Run the `Get-CMAuditReport.ps1` script.
 4. The script will generate a Word document containing the audit report.
 
-## Documentation
+## Contributions
+Contributions are welcome. Please open an issue or submit a pull request.
 
-For more detailed information on how to use the script, including parameter options and additional notes, please refer to the [script documentation](./Documentation.md).
+## GNU General Public License
+This script is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
+This script is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
