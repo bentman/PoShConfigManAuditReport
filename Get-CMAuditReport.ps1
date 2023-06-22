@@ -17,13 +17,13 @@
     - This script requires the Configuration Manager PowerShell module to be installed.
     - The script should be run on a system with the Configuration Manager console installed.
     - The Word.Application COM object is used to automate Word, so Word needs to be installed on the system.
-.NOTES
-    Version: 2.0
-    Author: Bentley
-    Creation Date: 2023-06-10
-    https://github.com/bentman/PoShConfigManAuditReport
 .LINK
     [Configuration Manager Documentation](https://docs.microsoft.com/en-us/mem/configmgr/)
+.NOTES
+    Version: 2.0
+    Creation Date: 2023-06-10
+    Copyright (c) 2023 https://github.com/bentman
+    https://github.com/bentman/PoShConfigManAuditReport
 #>
 
 #Requires -Module ($env:SMS_ADMIN_UI_PATH.Substring(0,$env:SMS_ADMIN_UI_PATH.Length-5) + '\ConfigurationManager.psd1')
