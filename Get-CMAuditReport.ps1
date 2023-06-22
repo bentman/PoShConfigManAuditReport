@@ -26,7 +26,7 @@
     https://github.com/bentman/PoShConfigManAuditReport
 #>
 
-# Requires -Module ($env:SMS_ADMIN_UI_PATH.Substring(0,$env:SMS_ADMIN_UI_PATH.Length-5) + '\ConfigurationManager.psd1')
+Requires -Module ($env:SMS_ADMIN_UI_PATH.Substring(0,$env:SMS_ADMIN_UI_PATH.Length-5) + '\ConfigurationManager.psd1')
 cd ((Get-PSDrive -PSProvider CMSite).Name + ':')
 
 # Gather the necessary audit data
